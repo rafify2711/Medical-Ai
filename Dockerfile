@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
 RUN pip install gdown
 
 # Download the models.zip using gdown
-RUN gdown https://drive.google.com/uc?id=1u4hNEYS-GbaqR1_T0-UpqtszVXlzKUcy
+RUN gdown https://drive.google.com/drive/folders/15B9pvy0oSYqNBAY-Yi2XIyBXusbGjnEw
 
 # Unzip the model
 RUN unzip models.zip && rm models.zip
